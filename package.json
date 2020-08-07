@@ -1,8 +1,8 @@
 {
-	"name": "the-module",
+	"name": "scratch-quantize",
 	"version": "0.0.0",
-	"description": "My awesome module.",
-	"repository": "https://github.com/Richienb/the-module.git",
+	"description": "Quantize a HEX colour to the closest colour that is supported by Scratch.",
+	"repository": "https://github.com/Richienb/scratch-quantize.git",
 	"author": "Richie Bendall <richiebendall@gmail.com>",
 	"license": "MIT",
 	"main": "index.js",
@@ -17,8 +17,18 @@
 		"lint": "xo",
 		"test": "xo && ava"
 	},
-	"keywords": [],
-	"dependencies": {},
+	"keywords": [
+		"scratch",
+		"quantize",
+		"csv",
+		"csb",
+		"hex",
+		"colour"
+	],
+	"dependencies": {
+		"color-convert": "^2.0.1",
+		"round-intervals": "^1.0.1"
+	},
 	"devDependencies": {
 		"ava": "^3.10.1",
 		"eslint-config-richienb": "^0.4.2",

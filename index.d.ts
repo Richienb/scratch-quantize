@@ -1,15 +1,14 @@
 /**
-My awesome module.
-@param input Lorem ipsum.
-@param postfix Lorem ipsum.
+Quantize a HEX colour to the closest colour that is supported by Scratch.
+@param input The HEX code to quantize.
 @example
 ```
-const theModule = require("the-module");
+const scratchQuantize = require("scratch-quantize");
 
-theModule("unicorns");
-//=> 'unicorns & rainbows'
+scratchQuantize("#FFD800");
+//=> "FFE600"
 ```
 */
-declare function theModule(input: string, { postfix }: { postfix?: string }): string
+declare function scratchQuantize(input: string): string
 
-export = theModule
+export = scratchQuantize

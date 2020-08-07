@@ -1,41 +1,30 @@
-# the-module [![Travis CI Build Status](https://img.shields.io/travis/com/Richienb/the-module/master.svg?style=for-the-badge)](https://travis-ci.com/Richienb/the-module)
+# scratch-quantize [![Travis CI Build Status](https://img.shields.io/travis/com/Richienb/scratch-quantize/master.svg?style=for-the-badge)](https://travis-ci.com/Richienb/scratch-quantize)
 
-My awesome module.
+Quantize a HEX colour to the closest colour that is supported by Scratch.
 
-[![NPM Badge](https://nodei.co/npm/the-module.png)](https://npmjs.com/package/the-module)
+[![NPM Badge](https://nodei.co/npm/scratch-quantize.png)](https://npmjs.com/package/scratch-quantize)
 
 ## Install
 
 ```sh
-npm install the-module
+npm install scratch-quantize
 ```
 
 ## Usage
 
 ```js
-const theModule = require("the-module");
+const scratchQuantize = require("scratch-quantize");
 
-theModule("unicorns");
-//=> 'unicorns & rainbows'
+scratchQuantize("#FFD800");
+//=> "FFE600"
 ```
 
 ## API
 
-### theModule(input, options?)
+### scratchQuantize(input)
 
 #### input
 
 Type: `string`
 
-Lorem ipsum.
-
-#### options
-
-Type: `object`
-
-##### postfix
-
-Type: `string`\
-Default: `rainbows`
-
-Lorem ipsum.
+The HEX code to quantize.
