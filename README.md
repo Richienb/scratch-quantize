@@ -28,3 +28,8 @@ scratchQuantize("#FFD800");
 Type: `string`
 
 The HEX code to quantize.
+
+## Related
+
+- [hex-csb](https://github.com/Richienb/hex-csb) - Convert a HEX colour to Scratch CSB
+- [csb-hex](https://github.com/Richienb/csb-hex) - Convert a Scratch CSB colour to HEX
